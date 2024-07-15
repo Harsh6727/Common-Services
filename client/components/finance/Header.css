@@ -1,0 +1,8 @@
+.navbar-collapse {
+  display: flex; 
+  justify-content: space-between; 
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}

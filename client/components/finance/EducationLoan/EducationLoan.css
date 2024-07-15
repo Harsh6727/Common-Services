@@ -1,0 +1,129 @@
+.educationloan-container {
+  padding: 1rem;
+  margin: 80px;
+}
+
+.educationloan-main-heading {
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #052F5F;
+}
+
+.educationloan-table {
+  width: 100%;
+  background-color: white;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  margin-bottom: 50px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid black;
+  margin-top: 45px;
+  margin-left: 20px;
+}
+
+.educationloan_header {
+  padding: 1rem;
+  text-align: left;
+  background-color: rgb(255, 249, 208);
+  font-weight: bold;
+}
+
+.educationloan_row:nth-child(even) {
+  background-color: rgb(160, 222, 255);
+}
+
+.educationloan_row:nth-child(odd) {
+  background-color: rgb(202, 244, 255);
+}
+
+.educationloan_cell {
+  padding: 1rem;
+  text-align: left;
+}
+
+.educationloan_table thead th,
+.educationloan_table tbody td {
+  border: none;
+  white-space: nowrap;
+}
+
+.educationloan_table th,
+.educationloan_table td {
+  text-align: left;
+}
+
+.educationloan_table tr {
+  display: table-row;
+}
+
+.educationloan_table tr th,
+.educationloan_table tr td {
+  display: table-cell;
+}
+
+.educationloan_table tr {
+  background-color: inherit;
+}
+
+.educationloan_table a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.educationloan_table a:hover {
+  text-decoration: underline;
+}
+
+.faq-section {
+  margin-top: 20px;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.faq-item.active {
+  background-color: #f0f0f0;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.faq-answer {
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  max-height: 0;
+}
+
+.faq-answer p {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+
+.pie-chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin: 40px auto;
+}
+
+p {
+  font-size: 20px;
+}
+
+li {
+  font-size: 20px;
+}

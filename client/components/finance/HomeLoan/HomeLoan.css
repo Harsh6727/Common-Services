@@ -1,0 +1,183 @@
+p{
+  color: #44475B;
+  font-size: 1.25rem;
+}
+
+.homeloan-container {
+  padding: 1rem;
+  margin: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.homeloan-main-heading {
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #052F5F;
+}
+
+.homeloan-subheading{
+  margin-top: 1.3rem;
+  margin-bottom: 0.7rem;
+  color: #34495E;
+}
+
+.homeloan-table {
+  width: 100%;
+  background-color: white;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  margin-bottom: 50px;
+  border-collapse: separate; 
+  border-spacing: 0;
+  border: 2px solid black;
+  margin-top: 45px;
+  margin-right: 10%;
+}
+
+.homeloan_header {
+  padding: 1rem;
+  text-align: left;
+  background-color: rgb(255, 249, 208);
+  font-weight: bold;
+}
+
+.homeloan_row:nth-child(even) {
+  background-color: rgb(160, 222, 255); 
+}
+
+.homeloan_row:nth-child(odd) {
+  background-color: rgb(202, 244, 255); 
+}
+
+
+.homeloan_cell {
+  padding: 1rem;
+  text-align: left;
+}
+
+.homeloan_table thead th, .homeloan_table tbody td {
+  border: none; 
+  white-space: nowrap;
+}
+
+.homeloan_table th, .homeloan_table td {
+  text-align: left; 
+}
+
+.homeloan_table tr {
+  display: table-row; 
+}
+
+.homeloan_table tr th, .homeloan_table tr td {
+  display: table-cell; 
+}
+
+.homeloan_table tr {
+  background-color: inherit; 
+}
+
+.homeloan_table a {
+  color: #1a73e8; 
+  text-decoration: none;
+}
+
+.homeloan_table a:hover {
+  text-decoration: underline; 
+}
+
+.calculator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.calculator {
+  width: 1000px;
+  height: 60rem;
+  padding: 40px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.calculator h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.inputGroup input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.result p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.rc-slider {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.rc-slider-handle {
+  border: solid 2px #1a73e8;
+}
+
+.rc-slider-track {
+  background-color: #1a73e8;
+}
+
+.pie-chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin: 40px auto;
+}
+
+.faq-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.faq-question {
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 0.7rem;
+  font-size: 1.25rem;
+}
+
+.faq-answer {
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  max-height: 0;
+}
+
+.faq-answer p {
+  margin: 0;
+  font-size: 1.25rem;
+}
+

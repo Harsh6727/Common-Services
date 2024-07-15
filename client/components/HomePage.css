@@ -1,0 +1,83 @@
+.hospitalcontainer {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden; 
+}
+
+.financecontainer {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden; 
+}
+.main-image {
+  padding: 20px 150px 0 150px;
+  width: 100%;
+  height: 440px;
+  object-fit: contain; 
+}
+
+.circles-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  gap: 65px; 
+  transform-origin: center; 
+}
+
+.circle-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease; 
+}
+
+.circle-image {
+  width: 130px; 
+  height: 130px; 
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.circle-item p {
+  margin: 5px 0;
+  font-size: 16px;
+  text-align: center;
+  color: #237b70;
+}
+
+.circle-item button {
+  background-color: #237b70;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: transform 0.3s ease; 
+}
+
+.circle-item button:hover {
+  background-color: #237b70;
+}
+
+.circle-item:hover {
+  transform: scale(1.1); 
+}
+
